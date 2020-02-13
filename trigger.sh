@@ -11,4 +11,4 @@ echo $TYPE
 echo $PROJECT_TYPE
 echo $DELIVERY_ID
 echo $MANIFEST_PATH
-echo $(python ./pixit_update-master/pixitupdate.py $PROJECT_TYPE $TYPE $DELIVERY_ID $MANIFEST_PATH)
+echo $(python ./pixit_update_status-master/pixitupdate.py $PROJECT_TYPE $TYPE $DELIVERY_ID $MANIFEST_PATH)
