@@ -41,6 +41,7 @@ def send_message_to_sns(topic_arn, message_body, message_attrs):
     return response
 
 msg_attr={}
+msg_body = 'Delivery In Progress To Pixit'
 msg_attr['ProjectType'] = {"DataType": "String", "StringValue": PROJECT_TYPE}
 msg_attr['Type'] = {"DataType": "String", "StringValue": TYPE}
 msg_attr['delivery_id'] = {"DataType": "Number", "StringValue": DELIVERY_ID}
